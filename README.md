@@ -1,6 +1,83 @@
-# React + TypeScript + Vite
+# Login maquetacin#1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LOGIN es una aplicacion web diseñada para loguearse y registrarse y navegar por los varios componentes 
+
+
+## 📌 Descripción
+
+Esta app permite registrar, visualizar  y ver las diferentes pestañas 
+
+
+## 🛠️ Tecnologías utilizadas
+- **CSS** – Estilos personalizados  
+- **HTML** – Estructura base del proyecto
+- - **React JS** – Biblioteca principal para la interfaz de usuario  
+- **JSON-Server** – Simulación de API REST con datos en formato JSON  
+- **React Router DOM** – Ruteo dinámico entre vistas
+
+  ## 🎨 Paleta de colores
+
+- `#000000`  
+- `#f4f6f8`  
+- `#333`  
+- `#646cff`  
+- `#535bf2`
+- `#213547`
+
+## 🔤 Tipografías
+
+- **Lato** – Títulos  
+- **Roboto** – Contenido general
+
+
+## 🚀 Ejecución del proyecto
+
+El proyecto se ejecuta con dos servicios en paralelo:
+
+- **Backend**: JSON-Server (puerto por defecto: `http://localhost:3000`)
+- **Frontend**: Vite + React (puerto por defecto: `http://localhost:5173`)
+
+---
+
+
+## 💾 Instalación
+
+Sigue estos pasos para clonar y ejecutar el proyecto localmente:
+
+```bash
+# 1. Clona el repositorio
+git clone https://github.com/tu-usuario/track-x.git
+cd track-x
+
+# 2. Instala las dependencias del frontend
+npm install
+
+# 3. Inicia el servidor JSON (backend simulado)
+npx json-server --watch db.json --port 3000
+
+# 4. En una nueva terminal, inicia el frontend con Vite
+npm run dev
+```
+
+
+## 🗂️ Estructura del proyecto
+
+```
+src/
+├── components/
+│   ├── Login.tsx
+│   ├── Registro.tsx
+│   ├── Home.tsx
+│   ├── Servicios.tsx
+│   └── Contacto.tsx
+├── App.tsx         
+├── App.css
+├── main.tsx
+
+```
+
+## 📫 Autor
+Desarrollado por **Jean carlos giraldo ramos**  
 
 Currently, two official plugins are available:
 
